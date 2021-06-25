@@ -1,0 +1,26 @@
+:host{
+    margin: 1px;
+    border: 1px solid black;
+    border-radius:  5px;
+    text-align: center;
+    display: inherit;
+    background-color: rgb(219, 219, 219);
+}
+
+button{
+    width: 70%;
+    margin: auto;
+    padding: 2px;
+    background-color: rgb(63, 125, 218);
+    border-radius: 5px;
+    border: white;
+    color: white;
+}
+
+img{
+    max-width: 250px;
+    margin: auto;
+    box-sizing: border-box;
+    max-height: 90%;
+    box-shadow: 0px 0px 4px 2px lightgrey;
+}

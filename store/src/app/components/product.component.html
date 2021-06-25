@@ -1,6 +1,6 @@
-<h3>Componente</h3>
 
-{{ product.title }}
-<img [src]="product.image" width="200">
-<strong>{{product.price}}</strong>
+<strong>{{ product.title }}</strong>
+<img [src]="product.image">
+<strong>${{product.price}}</strong>
 {{product.description}}
+<button (click)="addCart()">Agregar al carrito</button>
