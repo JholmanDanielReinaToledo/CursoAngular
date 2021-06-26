@@ -10,6 +10,8 @@ import { Product} from './product.model';
 export class AppComponent {
   title = 'foca';
   
+  power = 10;
+
   items = ['Daniel','Andres','Sancho','Pepito','Perez'];
 
   products: Product[] = [

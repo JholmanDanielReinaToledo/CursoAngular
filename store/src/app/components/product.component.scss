@@ -1,5 +1,5 @@
 :host{
-    margin: 1px;
+    margin: 6px;
     border: 1px solid black;
     border-radius:  5px;
     text-align: center;
@@ -7,10 +7,14 @@
     background-color: rgb(219, 219, 219);
 }
 
+#titulo{
+    margin: 4px;
+}
+
 button{
-    width: 70%;
+    width: 50%;
     margin: auto;
-    padding: 2px;
+    padding: 4px;
     background-color: rgb(63, 125, 218);
     border-radius: 5px;
     border: white;

@@ -1,6 +1,7 @@
 
-<strong>{{ product.title }}</strong>
+<strong appHighlight id="titulo">{{ product.title | uppercase }}</strong>
 <img [src]="product.image">
-<strong>${{product.price}}</strong>
-{{product.description}}
+<strong>{{product.price | currency}}</strong>
+<p>{{product.description | slice:0:10}}</p>
+<p>{{today | date: 'short'}}</p>
 <button (click)="addCart()">Agregar al carrito</button>

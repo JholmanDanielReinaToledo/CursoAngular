@@ -14,6 +14,8 @@ export class ProductComponent{
 
     @Output() productAddCart: EventEmitter<any> = new EventEmitter();
 
+    today = new Date();
+
     constructor(){
         console.log('1 constructor');
     }
